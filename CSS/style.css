@@ -37,27 +37,24 @@ a {
 
 /*HEADER*/
 header a img{
-    margin-top: 36px;
     width: 52.19px;
     height: 30.75px;
 }
 
 header{
-    width: 309px;
-    margin: auto;
+    padding: 36px 0px 0px 35px;
 }
 
 /*MAIN*/
 
 /*section-1*/
 
-main section.section-1 div.section-content-1{
-    width: 309px;
-    margin: auto;
-    margin-top:45px;
-    margin-bottom: 8px;
+main section.section-1{
+    margin: 45px auto 8px auto;
 }
-
+main section.section-1 div.section-content-1{
+    padding-left:35px;
+}
 
 main section.section-1 div.section-content-1 ul{
     display: flex;
@@ -79,8 +76,7 @@ main section.section-1 div.section-content-1 ul li img{
 main section.section-2 div.section-content-2{
     display: flex;
     flex-direction: column;
-    width: 309px;
-    margin: auto;
+    padding:0px 33px 0px 35.47px;
 }
 
 main section.section-2 div.section-content-2 div h1{
@@ -89,6 +85,7 @@ main section.section-2 div.section-content-2 div h1{
     font-weight: 700;
     line-height: 37.51px;
     height: 88.53px;
+    width: 260px;
 }
 
 main section.section-2 div.section-content-2 div p{
@@ -106,10 +103,10 @@ main section.section-2 div.section-content-2 img{
 /*section-3*/
 
 main section.section-3 div.section-content-3{
-    width: 309px;
+    max-width: 500px;
     height: 93.19px;
     font-family: Roboto;
-    margin: auto;
+    padding:0px 111px 0px 37.98px;
 }
 
 main section.section-3 div.section-content-3 div{
@@ -120,7 +117,6 @@ main section.section-3 div.section-content-3 div{
     color:#FFFFFF;
     padding:8.97px 12.59px 3.38px 12.13px;
     border-radius: 2.33px;
-    width: 225.36px;
 }
 
 main section.section-3 div.section-content-3 p{
@@ -142,12 +138,13 @@ main section.section-3 div.section-content-3 span{
 
 /*section-4*/
 
-main section.section-4 div.section-content-4{
+main section.section-4{
+    margin: 75.06px auto 0px auto;
+}
+main section.section-4 div.section-content-4{  
     display: flex;
     flex-direction: column;
-    width:309px ;
-    margin: auto;
-    margin-top: 75.06px;
+    padding:0px 30px 0px 36px;
 }
 
 main section.section-4 div.section-content-4 div h2{
@@ -162,7 +159,6 @@ main section.section-4 div.section-content-4 div h2{
 main section.section-4 div.section-content-4 div p{
     font-size: 12px;
     line-height: 18px;
-    width: 308.47px;
 }
 
 main section.section-4 div.section-content-4 img{
@@ -173,9 +169,12 @@ main section.section-4 div.section-content-4 img{
 }
 
 /*section-5*/
+
+main section.section-5{
+    margin-top: 45.71px;
+}
 main section.section-5 div.section-content-5{
-    width: 309px;
-    margin: auto;
+    padding-left:35px;
 }
 
 main section.section-5 div.section-content-5 img{
@@ -183,7 +182,6 @@ main section.section-5 div.section-content-5 img{
 }
 
 main section.section-5 div.section-content-5 ul{
-    margin-top: 45.71px;
     display: grid;
     width: 207px;
     gap: 33.33px;
@@ -201,9 +199,12 @@ main section.section-5 div.section-content-5 ul li p:first-child{
 }
 
 /*section-6*/
+
+main section.section-6{
+    margin-top: 68px;  
+}
 main section.section-6 div.section-content-6{
-    width: 309px;
-    margin: auto;
+    padding-left: 36px;
 }
 
 main section.section-6 div.section-content-6 h2{
@@ -211,7 +212,6 @@ main section.section-6 div.section-content-6 h2{
     font-size: 26px;
     font-weight: 700;
     line-height: 26px;
-    margin-top: 68px;
     height: 43.34px;
     margin-bottom: 16.66px;
 }
@@ -231,13 +231,16 @@ main section.section-6 div.section-content-6 ul li p:first-child{
 }
 
 /*section-7*/
+
+main section.section-7{
+    margin-top: 73px;
+}
 main section.section-7 div.section-content-7{
-    width: 309px;
-    margin: auto;
+    padding:0px 32px 0px 36px;
+    
 }
 
 main section.section-7 div.section-content-7 h2{
-    margin-top: 73px ;
     font-family: RobotoSlab;
     font-size: 26px;
     font-weight: 700;
@@ -249,7 +252,6 @@ main section.section-7 div.section-content-7 h2{
 main section.section-7 div.section-content-7 ul{
     list-style-type:disc;
     padding-left: 14px; 
-    margin-bottom: 62px;
 }
 
 main section.section-7 div.section-content-7 ul li{
@@ -259,11 +261,9 @@ main section.section-7 div.section-content-7 ul li{
 
 /*section-8*/
 
-main section.section-8 div.section-content-8{
-    width: 309px;
-    margin: auto;
+main section.section-8{
+    margin-top: 62px;
 }
-
 main section.section-8 div.section-content-8 h2{
     font-family: RobotoSlab;
     font-size: 26px;
@@ -271,6 +271,7 @@ main section.section-8 div.section-content-8 h2{
     line-height: 26px;
     margin-bottom: 35.66px;
     height: 43.34px;
+    padding:0 34px;
 }
 
 main section.section-8 div.section-content-8 div.course-program-grid{
@@ -312,13 +313,10 @@ main section.section-8 div.section-content-8 div.course-program-grid div.module 
 
 main section.section-9{
     margin-top: 47.16px;
-    padding:42px 0px 53px 0px;
+    padding:42px 32px 53px 36px;
     background-color: #EFEFEF;
 }
-main section.section-9 div.section-content-9{
-    width: 309px;
-    margin: auto;
-}
+
 
 main section.section-9 div.section-content-9 h2{
     font-family: RobotoSlab;
@@ -374,10 +372,7 @@ main section.section-10{
 }
 
 main section.section-10 div.section-content-10{
-    width: 309px;
-    margin: auto;
-    padding-top: 62px;
-    padding-bottom: 63.46px;
+    padding:62px 56px 63.46px 56px;
 }
 
 main section.section-10 div.section-content-10 h2{
@@ -423,9 +418,7 @@ footer{
 }
 
 footer div.footer-content{
-    width: 309px;
-    margin: auto;
-    padding:23.3px 0px 10px 0px;
+    padding:23.3px 0px 10px 56px;
 }
 
 footer div.footer-content img{
