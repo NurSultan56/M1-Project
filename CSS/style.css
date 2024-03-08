@@ -84,13 +84,11 @@ main section.section-2 div.section-content-2 div h1{
     font-size: 37px;
     font-weight: 700;
     line-height: 37.51px;
-    height: 88.53px;
-    width: 260px;
 }
 
 main section.section-2 div.section-content-2 div p{
     line-height: 15px;
-    margin-top: 2.22px;
+    margin-top: 18px;
 }
 
 main section.section-2 div.section-content-2 img{
@@ -252,6 +250,7 @@ main section.section-7 div.section-content-7 h2{
 main section.section-7 div.section-content-7 ul{
     list-style-type:disc;
     padding-left: 14px; 
+    margin-bottom: 62px;
 }
 
 main section.section-7 div.section-content-7 ul li{
@@ -261,9 +260,7 @@ main section.section-7 div.section-content-7 ul li{
 
 /*section-8*/
 
-main section.section-8{
-    margin-top: 62px;
-}
+
 main section.section-8 div.section-content-8 h2{
     font-family: RobotoSlab;
     font-size: 26px;
@@ -323,8 +320,7 @@ main section.section-9 div.section-content-9 h2{
     font-size: 26px;
     font-weight: 700;
     line-height: 26.36px;
-    height: 69px;
-    margin-bottom: 11px;
+    margin-bottom: 31px;
 }
 
 main section.section-9 div.section-content-9 div.review{
