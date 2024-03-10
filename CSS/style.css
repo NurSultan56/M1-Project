@@ -500,8 +500,13 @@ footer div.footer-content ul.contacts li img{
 /*     TABLET   CSS    ADAPTIVE    */
 
 @media screen and (min-width: 991px) and (max-width: 1280px){
+
+
+    
 body {
     font-size: 12px;
+    width: 100%;
+
 }
 
 /*       СТИЛЬ ХЭДЭРА       */
@@ -509,7 +514,6 @@ body {
 header {
     padding: 22px 700px 0px 70px;
     width: 100%;
-    
 }
 
 header a img {
@@ -521,7 +525,6 @@ header a img {
 /*       SECTION-1          */
 
 main section.section-1 {
-    width: 100%;
     margin:56px auto 0px 70px;
 }
 
@@ -532,6 +535,7 @@ main section.section-1 div.section-content-1{
 
 main section.section-1 div.section-content-1 ul {
     gap:14px;
+
 }
 
 main section.section-1 div.section-content-1 ul li {
@@ -806,10 +810,6 @@ main section.section-8 div.section-content-8 div.course-program-grid div.module 
 
 main section.section-8 div.section-content-8 div.course-program-grid div.module img{
     width: 231px;
-}
-
-main section.section-8 div.section-content-8 div.course-program-grid div.module:hover {
-    transform: translateY(-25px);
 }
 
 
