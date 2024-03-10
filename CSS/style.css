@@ -92,11 +92,23 @@ main section.section-2 div.section-content-2 div p{
     margin-top: 18px;
 }
 
+main section.section-2 div.section-content-2 #image-1 {
+    align-self: flex-end;
+    margin-bottom:38.64px;
+    display: flex;
+    flex-direction: column;
+}
+
 main section.section-2 div.section-content-2 img{
     width: 141.68px;
     height: 175.1px;
-    align-self: flex-end;
-    margin-bottom:38.64px;
+}
+
+main section.section-2 div.section-content-2 #ellips-1 {
+    width: 141.68px;
+    margin-top: -26px;
+    margin-left: 5px;
+    z-index: -1;
 }
 
 /*section-3*/
@@ -156,11 +168,22 @@ main section.section-4 div.section-content-4 div p{
     line-height: 18px;
 }
 
+main section.section-4 div.section-content-4 #image-2 {
+    align-self: center;
+    margin-top:25px;
+    display: flex;
+    flex-direction: column;
+}
+
 main section.section-4 div.section-content-4 img{
     width: 170.55px;
     height: 160.29px;
-    align-self: center;
-    margin-top:25px;
+}
+
+main section.section-4 div.section-content-4 #ellips-2 {
+    width: 175px;
+    z-index: -1;
+    margin-top: -31px;
 }
 
 /*section-5*/
@@ -173,6 +196,10 @@ main section.section-5 div.section-content-5{
 }
 
 main section.section-5 div.section-content-5 img{
+    display: none;
+}
+
+main section.section-5 div.section-content-5 #ellips-3 {
     display: none;
 }
 
@@ -534,6 +561,12 @@ main section.section-2 div.section-content-2 img {
     height: 206px;
 }
 
+main section.section-2 div.section-content-2 #ellips-1 {
+    width: 176px;
+    margin-top: -23px;
+    margin-left: 8px;
+}
+
 
 /*     SECTION-3     */
 
@@ -590,11 +623,18 @@ main section.section-4 div.section-content-4 div p {
     line-height: 21px;
 }
 
+main section.section-4 div.section-content-4 #image-2 {
+    margin-top:0px;
+}
+
 main section.section-4 div.section-content-4 img {
     width: 181px;
     height: 182px;
-    align-self: flex-end;
-    margin-top: 0px;
+    margin-left: 15px;
+}
+
+main section.section-4 div.section-content-4 #ellips-2 {
+    width: 212px;
 }
 
 
@@ -610,10 +650,23 @@ main section.section-5 div.section-content-5{
     width: 100%;
 }
 
+main section.section-5 div.section-content-5 #image-3 {
+    display: flex;
+    flex-direction: column;
+}
+
 main section.section-5 div.section-content-5 img{
     display: block;
     width: 134px;
     height: 117px;
+}
+
+main section.section-5 div.section-content-5 #ellips-3 {
+    display: block;
+    width: 110px;
+    z-index: -1;
+    margin-top: -18.5px;
+    margin-left: 17px;
 }
 
 main section.section-5 div.section-content-5 ul{
@@ -993,12 +1046,19 @@ footer div.footer-content ul.contacts li a img {
         width: 304px;
         height: 356px;
     }
+
+    main section.section-2 div.section-content-2 #ellips-1 {
+        width: 304px;
+        margin-top: -24px;
+        margin-left: 9px;
+        z-index: -1;
+    }
     
     
     /*     SECTION-3     */
     
     main section.section-3 div.section-content-3 {
-        padding: 0px 547px 0px 409px;
+        padding: 0px 0px 0px 0px;
         width: 1280px;
         margin: auto;
     }
@@ -1074,11 +1134,24 @@ footer div.footer-content ul.contacts li a img {
         width: 1280px;
         margin: auto;
     }
+
+    main section.section-5 div.section-content-5 #image-3 {
+        display: flex;
+        flex-direction: column;
+    }
     
     main section.section-5 div.section-content-5 img{
         display: block;
         width: 232px;
         height: 203px;
+    }
+
+    main section.section-5 div.section-content-5 #ellips-3 {
+        display: block;
+        width: 189px;
+        z-index: -1;
+        margin-top: -18.5px;
+        margin-left: 31px;
     }
     
     main section.section-5 div.section-content-5 ul{
